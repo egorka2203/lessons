@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url("reset.css");
+body{
+     background-color: rgb(39, 39, 87);
+     font-family: 'Inter', sans-serif;
+     padding-bottom: 1300px;
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+[class*="__container"] {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.wrapper__main {
+     color:#fff;
+     
+}
+
+.main__container {
+}
+.main__transform {
+}
+.transform {
+}
+.transform__title {
+     font-size: 35px;
+     text-align: center;
+     margin-bottom: 40px;
+     margin-top: 40px;
+}
+.transform-item:not(:last-child){
+     margin-right: 30px;
+}
+.transform-item {
+     display: inline-block;
+     background-color: rgb(27, 27, 69);
+     width: 200px;
+     height: 200px;
+     border-radius: 30px;
+     text-align: center;
+     padding-top: 90px ;
+     transition:0.5s all;
+     
+}
+.transform__translate:hover {
+     transform: translate(30px,-40px);
+     
+}
+.transform__scale:hover {
+     transform: scale(2);
+}
+.transform__rotate:hover {
+     transform: rotate(720deg);
+}
+.transform__skew:hover {
+     transform: skew(70deg,21deg);
+}
+.transform__origin:hover {
+     transform-origin: 200px 0;
+     transform: rotate(-60deg);
+}
+
+
+.transform__rotateX:hover {
+     transform: rotateX(30deg);
+}
+.transform-item__text {
+}
+.transform__rotate3d:hover {
+     transform: rotate3d(1,1,1,50deg);
+}
+.transform__translate3d:hover {
+     transform: translate3d(30px,30px,0px);
+}
+.transform__scale3d:hover {
+     transform: scale3d(1,2,2);
+}
+.transform__style-transform{
+     transform-style: preserve-3d;
+}
+.transform__style-transform:hover {
+     transform: rotateX(30deg);
+}
+.transform__backface-visibility {
+     margin: 40px auto;
+     margin-left: 470px;
+     
+}
+.main__car {
+     position: relative;
+     background-color: crimson;
+     margin: 150px auto;
+     width: 600px;
+     height: 350px;
+     border-radius: 20px 20px 0 0;
+}
+
+.car__windows {
+     
+
+}
+.car__window-01 {
+     position: relative;
+     top: 70px;
+     background-color: cadetblue;
+     width: 100px;
+     height: 70px;
+     border-radius: 10px 10px;
+}
+.car__window-02 {
+     position: relative;
+     left: 500px;
+     background-color: cadetblue;
+     width: 100px;
+     height: 70px;
+     border-radius: 10px 0 0 10px;
+
+}
+.wheels {
+}
+.wheel__01 {
+     position: relative;
+     bottom: 200px;
+     left: 700px;
+     width: 100px;
+     height: 100px;
+     background-color: black;
+     border: dashed brown;
+     border-radius: 100%;
+}
+.wheel__02 {
+     position: relative;
+     bottom: 300px;
+     left: 370px;
+     width: 100px;
+     height: 100px;
+     background-color: black;
+     border: dashed brown;
+     border-radius: 100%;
+}
