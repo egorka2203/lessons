@@ -1,0 +1,163 @@
+@import url("reset.css");
+
+body{
+	background-color: rgb(69, 69, 238);
+}
+
+.wrapper {
+	overflow: clip;
+	max-height: 100%; 
+	/* має бути min-height */
+}
+.wrapper__sun {
+	position: absolute;
+	top: 30px;
+	background-color: rgb(251, 255, 0);
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	border: dashed rgb(255, 123, 0);
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-name: sun-ran;
+}
+@keyframes sun-ran{
+	0%{
+		transform: translate(0px);
+		
+	}
+	100%{
+		transform: translate(1435px);
+		
+	}
+}
+.wrapper__car{
+	position: absolute;
+	top: 300px;
+	z-index: 2;
+	animation-name: car;
+	animation-duration: 2s;
+	animation-timing-function: cubic-bezier(1,.32,.65,.92);
+	animation-iteration-count: infinite;
+	
+}
+@keyframes car{
+	0%{
+		transform: rotate(0);
+	}
+	25%{
+		transform: rotate(-7deg);
+	}
+	50%{
+		
+	}
+	75%{
+		
+	}
+	100%{
+		transform: translate(1600px);
+	}
+}
+.car__wrapper {
+	position: relative;
+	background-color: blueviolet;
+	width: 350px;
+	height: 200px;
+	border-radius: 20px 20px 0 0;
+}
+.car {
+}
+.car__windows {
+}
+.window {
+}
+.window__01 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: aqua;
+	width: 50px;
+	height: 80px;
+	border-radius: 0 20px 0 0;
+
+}
+.window__02 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: aqua;
+	width: 50px;
+	height: 80px;
+	border-radius: 20px 0 0 0;
+}
+
+	
+
+
+.wheel {
+	animation-name: wheels;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes wheels{
+	0%{
+		transform: rotate(0);
+	}
+	25%{
+		transform: rotate(30deg);
+	}
+	50%{
+		
+	}
+	75%{
+		
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+.car__wheel-01 {
+	position: absolute;
+	top: 170px;
+	left: 30px;
+	background-color: black;
+	border: 4px dashed brown; 
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+}
+.car__wheel-02 {
+	position: absolute;
+	top: 170px;
+	left: 250px;
+	background-color: black;
+	border: 4px dashed brown; 
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+}
+.wrapper__road {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	min-width: 100%;
+	height: 300px;
+	background-color: rgb(98, 98, 98);
+}
+.road {
+}
+.road__marking {
+	margin-top: 140px;
+}
+
+.road__marking span{ 
+	display: inline-block;
+	width: 70px;
+	height: 10px;
+	margin-right: 34px;
+	background-color: #fff;
+}
+.road__marking span:last-child{
+	margin-right: 0;
+}
