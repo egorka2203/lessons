@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("reset.css");
+@import url("common.css");
+
+body {
+     font-family: 'Poppins';
+     font-size: 18px;
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+
+
+
+.wrapper__header {
+     padding-top: 42px;
+}
+.header {
+}
+.header__container {
+}
+.header__menu {
+     display: flex;
+     justify-content: space-between;
+}
+.menu-header {
+}
+.menu-header__logo {
+}
+.menu-header__right-side {
+     display: flex;
+     column-gap: 74px;
+}
+.menu-header__navigation {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     column-gap: 74px;
+}
+.navigation-menu {
+}
+.navigation-menu__item {
+}
+.navigation-menu__link:hover{
+     text-decoration: underline;
+}
+.navigation-menu__link {
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     color: #333333;
+}
+.menu-header__button {
+     display: flex;
+     align-items: center;
+     
+}
+.button {
+}
+.button__contact:hover{
+     background: #D9D9D9;
+     color: black;
+}
+.button__contact {
+     padding: 14px 32px;
+     background: #2C3878;
+     border: 1px solid #3C3C3C;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     color: #FFFFFF;
+     transition: all 0.3s;
+}
+.wrapper__main {
+}
+.main {
+}
+.main__container {
+}
+.main__top-content {
+}
+.main-top {
+}
+.main-top__block{
+     max-width: 520px;
+     margin: 112px auto 54px ;
+}
+.main-top__title {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 56px;
+     line-height: 1.4;
+     color: #000000;
+}
+.main-top__subtitle {
+     margin-top: 42px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1.6;
+     color: #000000;
+
+
+}
+.main-top__image img{
+     max-width: 100%;
+}
+.main__middle-content {
+}
+.main-middle {
+}
+.main-middle__description {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     column-gap: 32px;
+     margin-top: 100px;
+}
+.description-middle {
+}
+.description-middle__overview {
+     max-width: 580px;
+}
+.description-middle__title {
+     font-style: normal;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 1.4;
+     color: #333333;
+}
+.description-middle__subtitle p{
+     margin-top: 30px;
+}
+.description-middle__subtitle {
+     margin-top: 24px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1.6;
+     color: #9C9C9C;
+}
+.description-middle__subtitle-left{
+     max-width: 580px;
+}
+.description-middle__block{
+     display: flex;
+     column-gap: 80px;
+     margin-top: 60px;
+}
+.description-middle__date {
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1.6;
+     color: #9C9C9C;
+}
+.description-middle__unit {
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1.6;
+     color: #9C9C9C;
+}
+.description-middle__process {
+}
+.main__middle-content-pictures {
+     
+}
+.main-middle-pictures {
+}
+.main-middle-pictures__block-one img{
+     max-width: 100%;
+     margin-top: 32px;
+}
+.main-middle-pictures__block-one {
+     display: flex;
+     flex-wrap: wrap;
+     column-gap: 32px;
+}
+.main-middle-pictures__block-two img{
+     max-width: 100%;
+     margin-top: 32px;
+}
+.main-middle-pictures__block-two {
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 32px;
+
+}
+.main-middle-pictures__block-three img{
+     max-width: 100%;
+     margin-top: 32px;
+}
+.main-middle-pictures__block-three {
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 32px;
+     column-gap: 32px;
+}
+.footer__bottom-content {
+     margin-top: 100px;
+     background: #2C3878;
+     padding: 38px 120px;
+}
+.footer-bottom {
+}
+.footer-bottom__content-wrapper{
+     display: flex;
+     justify-content: space-between;
+     column-gap: 155px;
+}
+.footer-bottom__title {
+     max-width: 613px;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 36px;
+     line-height: 1.7;
+     color: #FFFFFF;
+}
+.footer-bottom__subtitle {
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 1.6;
+     color: #D9D9D9;
+}
+.footer-bottom__button {
+     margin-top: 30px;
+}
+.button-white:hover{
+     background: #1a224b;
+     color: #FFFFFF;
+}
+.button-white{
+     background: #FFFFFF;
+     color: #000000;
+}
+.footer-bottom__block-left{
+
+}
+.footer-bottom__block-right{
+     
+}
+.wrapper__footer {
+}
+.footer {
+}
+.footer__container {
+}
+.footer__content {
+}
+.footer-achievement {
+}
+.footer-achievement__title:after{
+     content: '';
+     align-self: center;
+     flex: 0 1  460px; 
+     background: #000;
+     height: 2px;
+}
+
+.footer-achievement__title {
+     margin-top: 100px;
+     font-weight: 500;
+     font-size: 16px;
+     display: flex;
+     column-gap: 25px;
+}
+.footer-achievement__block-item {
+     display: flex; 
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     column-gap: 20px;
+}
+.block-item-achievemen {
+}
+
+.block-item-achievemen__image-left img{
+     margin-top: 40px;
+     max-width: 100%;
+}
+.block-item-achievemen__block-right{
+     
+     max-width: 340px;
+}
+.block-item-achievemen__title {
+     font-style: normal;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 1.4;
+     color: #333333;
+}
+.block-item-achievemen__subtitle {
+     
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 1.6;
+     color: #9C9C9C;
+}
