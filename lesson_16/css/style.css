@@ -144,6 +144,7 @@ body {
 	gap: 24px;
 	max-width: 606px;
 }
+
 .second-account {
 }
 .second-account__item {
@@ -176,6 +177,30 @@ body {
 .second-account__select {
 	
 }
+
+
+@media (max-width:768px){
+	.second-account__item {
+		flex-direction: column;
+		align-items: stretch;
+		
+	}
+	.account-registration__item{
+		flex-direction: column;
+		align-items: stretch;
+	}
+	.item-account__input{
+		min-height: 44px;
+	}
+	.second-account__input{
+		min-height: 44px;
+	}
+	.item__select{
+		min-height: 44px;
+	}
+}
+
+
 
 .second-account__item {
 }
@@ -233,7 +258,9 @@ body {
 	background-color: #C4C4C4;
    }
    
-   .method-shop__radio {}
+   .method-shop__radio {
+	
+   }
    
    .radio-method {}
    
@@ -321,6 +348,17 @@ body {
 	display: flex;
 	gap: 107px;
    }
+   @media (max-width:576px) {
+		.radio-method__item-5{
+			gap:60px;
+		}
+		.radio-method__item-10{
+			gap:60px;
+		}
+		.radio-method__text{
+			gap: 40px;
+		}
+   }
    
    .method-shop__buttons {
 	display: flex;
@@ -402,6 +440,7 @@ body {
 	column-gap: 28px;
 	
 }
+
 .shopping-second__item {
 	flex: 0 1 48%; /* 336/700 */
 }
@@ -418,6 +457,15 @@ body {
 	font-size: 16px;
 	line-height: 1.50; 
 	color: #637381;
+}
+@media (max-width:768px) {
+	.second-shopping__body{
+		display: block;
+	}
+	.shopping-second__item:not(:last-child){
+		margin-bottom: 15px;
+	}
+	
 }
 .second-shopping__checkbox {
 	position: relative;
@@ -556,4 +604,12 @@ body {
 	line-height: 1.5;
 	color: #FFFFFF;
 	transition: all 0.3s;
+}
+
+@media (max-width:465px){
+	.body-coupon__item{
+		flex-direction: column;
+		align-items: stretch;
+		
+	}
 }
