@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" href="css/style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>lesson_16</title>
+</head>
+<body>
+     <div class="wrapper">
+          <header class="wrapper__header header">
+               <div class="header__container">
+
+               </div>
+          </header>
+          <main class="wrapper__main main">
+               <div class="main__container">
+                    <div class="main__shopping-registration registration-account">
+                         <form action="#" method="POST" enctype="multipart/form-data" class="registration-account__form">
+                              <h2 class="registration-account__title">Shipping Address</h2>
+                              <div class="registration-account__body account-registration">
+                                   <div class="account-registration__item item-account">
+                                        <label class="item-account__label" for="email-01">Email Address *</label>
+                                        <input class="item-account__input" required autocomplete="off" tabindex="1" placeholder="roni_cost@example.com" id="email-01" name="email" type="email">
+                                   </div>
+                                   <div class="account-registration__item item-account">
+                                        <label class="item-account__label" for="password-01">Password</label>
+                                        <input class="item-account__input" required autocomplete="off" tabindex="2" placeholder="******************" id="password-01" name="pass" type="password">
+                                   </div>
+                                   <div class="account-registration__item item-account">
+                                        <label class="item-account__label" for="text-01">Zip/Postal Code</label>
+                                        <input class="item-account__input" required autocomplete="off" tabindex="3"  id="text-01" name="text" type="text" minlength="5" maxlength="20">
+                                   </div>
+                              </div>
+                              <h5 class="account-registration__text">You already have an account with us. Sign in or continue as guest.</h5>
+                              <div class="account-registration__login">
+                                   <button class="account-registration__btn"  type="submit">login</button>
+                                   <a class="account-registration__for-pass" href="#">Forgot Your Password?</a>
+                              </div >
+                              <div class="account-registration__line line"></div>
+                         </form>
+                    </div>
+                    <div class="main__secondary-registration second-account">
+                         <div class="second-body__form">
+                              <form action="#" method="POST" enctype="multipart/form-data" class="second-body__items second-account">
+                                   <div class="second-account__item">
+                                        <label class="second-account__label" for="first-name-01">First Name *</label>
+                                        <input class="second-account__input" type="text" id="first-name-01" autocomplete="off" name="first-name" tabindex="4" minlength="4" maxlength="25"  >
+                                   </div>
+                                   <div class="second-account__item">
+                                        <label class="second-account__label" for="last-name-02">Last Name *</label>
+                                        <input class="second-account__input" type="text" id="last-name-01" autocomplete="off" name="last-name" tabindex="5" minlength="4" maxlength="25"  >
+                                   </div>
+                                   <div class="second-account__item">
+                                        <label class="second-account__label" for="company-01">Company</label>
+                                        <input class="second-account__input" type="text" id="company-01" autocomplete="off" name="company" tabindex="6" minlength="4" maxlength="25"  >
+                                   </div>
+                                   <div class="second-account__item">
+                                        <label class="second-account__label" for="str-add-01">Street Address *</label>
+                                        <input class="second-account__input" type="text" id="str-add-01" autocomplete="off" name="str-add" tabindex="7" minlength="4" maxlength="25"  >
+                                   </div>
+                                   <div class="second-account__item">
+                                        <label class="second-account__label" for=""></label>
+                                        <input class="second-account__input" type="text" id="" autocomplete="off" name="" tabindex="8" minlength="4" maxlength="25"  >
+                                   </div>
+                                   <div class="second-account__item">
+                                        <label class="second-account__label" for=""></label>
+                                        <input class="second-account__input" type="text" id="" autocomplete="off" name="" tabindex="9" minlength="4" maxlength="25"  >
+                                   </div>
+                                   <div class="second-account__item">
+                                        <label class="second-account__label" for="country-01">Country  *</label>
+                                        <input class="second-account__input" type="text" id="country-01" autocomplete="off" name="country" tabindex="10" minlength="4" maxlength="25"  >
+                                   </div>
+			
+							<div class="second-account__item item">
+								<label class="item__label" for="select-01">State/Province   *</label>
+								<select class="item__select" id="select-01" name="list-01"  tabindex="11">
+									<option class="item__option" value="1">Please select a region, state or province</option>
+									<option class="item__option" value="2">пункт №2</option>
+									<option class="item__option" value="3">пункт №3</option>
+								</select>
+							</div>
+                              </form>
+                         </div>
+                    </div>
+				<form  action="#" method="POST" enctype="multipart/form-data"  class="main__shipping-methods method-shop">
+					<h2 class="method-shop__title">Shipping Methods</h2>
+					<div class="method-shop__line"></div>
+					<div class="method-shop__radio radio-method">
+						<div class="radio-method__item-5">
+							<div class="radio-method__body">
+								<input class="radio-method__input" checked required id="radio-method-01" type="radio" tabindex="12" value="fixed" name="radio-01"  >
+								<label class="radio-method__label" for="radio-method-01">$5.00</label>
+							</div>
+							<div class="radio-method__text text">
+								<div class="text__left text-radio">Fixed</div>
+								<div class="text__right text-radio">Flat Rate</div>
+							</div >
+						</div>
+						<div class="radio-method__item-line line"></div>
+						<div class="radio-method__item-10">
+							<div class="radio-method__body">
+								<input class="radio-method__input" required  id="radio-method-02" type="radio" tabindex="13" value="table-rate" name="radio-01" >
+								<label class="radio-method__label" for="radio-method-02">$10.00</label>
+							</div>
+							<div class="radio-method__text text">
+								<div class="text__left text-radio">Table Rate</div>
+								<div class="text__right text-radio">Best Way</div>
+							</div >
+						</div>
+					</div>
+					<div class="method-shop__buttons">
+						<button type="submit" class="method-shop__button-left">next</button>
+						<button type="reset" class="method-shop__button-right">Back</button>
+					</div>
+				</form>
+				<div class="main__second-shopping-page second-shopping">
+					<form action="#" method="POST" enctype="multipart/form-data"  class="second-shopping__form"> 
+						<h3 class="second-shopping__title">Billing Details</h3>
+						<div class="second-shopping__items shopping-second">
+							<div class="second-shopping__body">
+								<div class="shopping-second__item">
+									<input class="shopping-second__input" required placeholder="First name*" id="" name="first" type="text">
+								</div>
+								<div class="shopping-second__item">
+									<input class="shopping-second__input" required placeholder="Last name*" id="" name="last" type="text">
+								</div>
+								<div class="shopping-second__item">
+									<input class="shopping-second__input" required placeholder="Address*" id="" name="add" type="text">
+								</div>
+								<div class="shopping-second__item">
+									<input class="shopping-second__input" required  placeholder="Address line 2" id="" name="add-2" type="text">
+								</div>
+								<div class="shopping-second__item">
+									<input class="shopping-second__input" required placeholder="Country*" id="" name="country" type="text">
+								</div>
+								<div class="shopping-second__item">
+									<input class="shopping-second__input"  required placeholder="City/Town*" id="" name="city-town" type="text">
+								</div>
+								<div class="shopping-second__item">
+									<input class="shopping-second__input" required placeholder="Postcode / ZIP*" id="" name="postcode" type="text">
+								</div>
+								<div class="shopping-second__item">
+									<input class="shopping-second__input" required placeholder="Phone*" id="" name="phone" type="tel">
+								</div>
+								<div class="shopping-second__item">
+									<input class="shopping-second__input" required placeholder="Postcode / ZIP*" id="" name="postcode" type="text">
+								</div>
+								<div class="shopping-second__item">
+									<input class="shopping-second__input" required placeholder="Phone*" id="" name="phone" type="tel">
+								</div>
+								
+							</div>
+							<div class="shopping-second__textarea">
+								<textarea name="information">Additional information</textarea>
+							</div>
+							<div class="second-shopping__checkbox checkbox-shoppin">
+								<div class="checkbox-shoppin__body">
+									<input class="checkbox-shopping__input" id="checkbox-01" name="checkbox-01" type="checkbox">
+									<label class="checkbox-shopping__lable" for="checkbox-01">Create Account</label>
+								</div>
+								<div class="checkbox-shoppin__body">
+									<input class="checkbox-shopping__input" id="checkbox-02" name="checkbox-02" type="checkbox">
+									<label class="checkbox-shopping__lable" for="checkbox-02">Ship to a different address?</label>
+								</div>
+							</div>
+						</div>
+					</form>
+					<form action="#" method="POST" enctype="multipart/form-data" class="main__coupon-body body-coupon">
+						<div class="body-coupon__title">
+							Apply Coupon to get discount!
+						</div>
+						<div class="body-coupon__item">
+							<input class="body-coupon__input" placeholder="Coupon code" name="coupon-01" type="text">
+							<button type="submit" class="body-coupon__button" >Apply Code</button>
+						</div >
+					</form>
+				</div>
+               </div>
+          </main>
+          <footer class="wrapper__footer footer">
+               <div class="footer__container">
+                    
+               </div>
+          </footer>
+     </div>
+</body>
+</html>
